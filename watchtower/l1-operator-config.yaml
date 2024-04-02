@@ -1,0 +1,16 @@
+# Configure your watchtower private keys here
+watchtower_private_keys:
+  - <WatchTower1-private-key>
+  - <WatchTower2-private-key>
+  - <WatchTower3-private-key>
+
+
+operator_private_key: <Operator-private-key>
+operator_registry_address: <OperatorRegistry-contract-address>
+witnesshub_address: <WitnessHub-contract-address>
+avs_directory_address: <AVSDirectory-contract-address>
+
+
+eth_rpc_url: <RPC-URL>
+chain_id: <ChainID>
+gas_limit: <Gas-limit>
