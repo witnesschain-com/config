@@ -25,7 +25,7 @@
 
                 "// EXAMPLE"                    : "wss://my-L1-node -OR- ws://my-L1-node",
          
-         "proof_submission_chain_url"           : "wss://witnesschain-testnet.eu-north-2.gateway.fm/ws",
+         "proof_submission_chain_url"           : "wss://witnesschain-testnet-rpc.eu-north-2.gateway.fm/ws",
          "currently_watching_l1"                : "eth_testnet",
          "eth_testnet_chain_id"                 : 11155111,
          "proof_submission_chain_id"            : 250628747,
