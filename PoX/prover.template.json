@@ -1,0 +1,38 @@
+{
+
+"// 1" : "----- Please change the values that has TODO -----",
+
+	"claims" : {
+
+		"latitude"	: 37.01511676489697,				"// 2" : "Required",
+		"longitude"	: -79.0392271449855,				"// 3" : "Required",
+
+		"country"	: "US",						"// 4" : "Not mandatory",
+		"region"	: "Virginia",					"// 5" : "Not mandatory",
+		"city"		: "Ashburn",					"// 6" : "Not mandatory",
+
+		"radius"	: 1000,						"// 7" : "Not mandatory, radius is in meters"
+	},
+
+	"projectName"		: "My-DEPIN-Project-Name",			"// 8" : "Required",
+
+	"walletPublicKey"	: {						"// 9" : "Required - The wallet addresses where your rewards go",
+		"ethereum"	: "0x630391b032F444cB40B3603b579064817f312353",	"// 10": "TODO: Please change this to your wallet address"
+	},
+
+	"maxChallengesPerDay"	: 100,						"// 11": "The MAX no. of challenges you wish to participate per day",
+
+"// 12" : "CAREFUL : Set below two values to true - ONLY if you have public IP, but due to some issue with ISP the code is unable to detect it",
+
+	"havePublicIPv4Address"	: false,
+	"havePublicIPv6Address"	: false,
+
+"// 13" : "CAREFUL : Set below two values to true - ONLY if you want to force to have private IP",
+
+	"havePrivateIPv4Address": false,
+	"havePrivateIPv6Address": false,
+
+"// 14" : "Save the login, session, and challenge related data in a .sqlite file",
+
+	"saveResutlsInDatabase" : false 
+}
