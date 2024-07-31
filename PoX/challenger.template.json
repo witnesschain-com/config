@@ -1,0 +1,43 @@
+{
+
+"// 1" : "----- Please change the values that has TODO -----",
+
+	"claims" : {
+
+		"latitude"	: 37.01511676489697,				"// 2" : "TODO: Required",
+		"longitude"	: -79.0392271449855,				"// 3" : "TODO: Required",
+
+		"country"	: "US",						"// 4" : "TODO: Not mandatory",
+		"region"	: "Virginia",					"// 5" : "TODO: Not mandatory",
+		"city"		: "Ashburn",					"// 6" : "TODO: Not mandatory",
+
+		"radius"	: 1000,						"// 7" : "TODO: Not mandatory, radius is in meters"
+	},
+
+	"walletPublicKey"	: {						"// 8" : "TODO: Required - The wallet addresses where your rewards go",
+		"ethereum"	: "0x630391b032F444cB40B3603b579064817f312353",	"// 9" : "TODO: Please change this to your wallet address"
+	},
+
+
+"// 10" : "CAREFUL : Set below two values to true - ONLY if you have public IP, but due to some issue with ISP the code is unable to detect it",
+
+	"havePublicIPv4Address"	: false,
+	"havePublicIPv6Address"	: false,
+
+"// 11" : "CAFEFUL : Set below two values to true - ONLY if you want to force to have private IP",
+
+	"havePrivateIPv4Address": false,
+	"havePrivateIPv6Address": false,
+
+"// 12" : "Save the login, session, and challenge related data in a .sqlite file",
+
+	"saveResutlsInDatabase" : false,
+
+"// 13" : "Send challenge results to a contract",
+
+	"submitResultsToContract" : true,
+
+"// 14" : "RPC URL of the contract Where the challenger submits results",
+
+	"rpcUrl": "https://blue-orangutan-rpc.eu-north-2.gateway.fm"
+}
